@@ -38,7 +38,7 @@
   </div>
 
   <script>
-    const TV_IP = "192.168.1.100"; // ✴️ غيّر ده لـ IP التلفزيون بتاعك
+    const TV_IP = "192.168.100.81"; // ✴️ غيّر ده لـ IP التلفزيون بتاعك
 
     function sendKey(key) {
       fetch(`http://${TV_IP}:8001/api/v2/channels/samsung.remote.control?name=WebRemote`, {
